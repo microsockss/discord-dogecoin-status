@@ -85,8 +85,8 @@ function updateStatus() {
             json: {
                 custom_status: {
                     text: "DOGE = $" + dogePrice,
-                    emoji_id: config.emojiID,
-                    emoji_name: config.emojiName
+                    emoji_id: config.emoji_id,
+                    emoji_name: config.emoji_name
                 }
             }
         }, (err, res) => {
